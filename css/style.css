@@ -1,0 +1,91 @@
+/* Styling for the body */
+body {
+    height: 100vh;
+    background-image: url('/back-scene.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Styling for the logo */
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+/* Styling for the heading */
+h1 {
+    color: aliceblue;
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Styling for the message container */
+.container {
+    background-color: rgba(255, 255, 255, 0);
+    max-width: 955px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 33px;
+    overflow-y: scroll;
+    margin-bottom: 23px;
+    margin: auto;
+    height: 60vh;
+}
+
+/* Styling for individual chat messages */
+.message {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 4px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+/* Styling for left-aligned messages */
+.left {
+    float: left;
+    clear: both;
+}
+
+/* Styling for right-aligned messages */
+.right {
+    float: right;
+    clear: both;
+}
+
+/* Styling for the message input container */
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    max-width: 1050px;
+    width: 100%;
+}
+
+/* Styling for the message input field */
+#messageInp {
+    width: 83%;
+    border: 2px solid rgb(181, 147, 204);
+    border-radius: 6px;
+    height: 34px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling for the send button */
+.btn {
+    width: 9%;
+    cursor: pointer;
+    border: 4px solid rgb(153, 0, 255);
+    border-radius: 10px;
+    height: 40px;
+    border-color: blueviolet;
+}
